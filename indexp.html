@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lameea Ismath — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-wrap">
+    <a href="#home" class="logo">lameea.ud</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-bg">
+    <canvas id="particles"></canvas>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal">Hello, I'm</p>
+    <h1 class="hero-name reveal">Lameea Ismath</h1>
+    <div class="hero-role reveal">
+      <span>I'm a </span><span class="typed" id="typed"></span><span class="cursor-blink">|</span>
+    </div>
+    <p class="hero-desc reveal">
+Data Science student who loves building things — from data models to full websites. Curious about numbers, obsessed with clean design.
+    </p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-socials reveal">
+      <a href="https://github.com/lameea" target="_blank" aria-label="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/in/lameea-ismath-39576a38b" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </div>
+  <a href="#skills" class="scroll-hint" aria-label="Scroll down">
+    <span></span>
+  </a>
+</header>
+
+
+<section class="section section-alt" id="skills">
+  <div class="wrap">
+    <div class="section-head reveal-up">
+      <span class="section-tag">01· Skills</span>
+      <h2>What I Work With</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal-up">
+        <h4>Languages</h4>
+        <div class="skill-tags">
+          <span>JavaScript</span><span>Python</span><span>Java</span><span>C++</span>
+        </div>
+      </div>
+      <div class="skill-card reveal-up">
+        <h4>Frontend</h4>
+        <div class="skill-tags">
+          <span>React</span><span>HTML/CSS</span><span>Tailwind</span>
+        </div>
+      </div>
+      <div class="skill-card reveal-up">
+        <h4>Backend</h4>
+        <div class="skill-tags">
+          <span>Node.js</span><span>Express</span><span>REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-card reveal-up">
+        <h4>Database & Tools</h4>
+        <div class="skill-tags">
+          <span>MongoDB</span><span>MySQL</span><span>Git</span><span>Docker</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="proficiency">
+      <div class="prof-item reveal-up" data-level="90">
+        <div class="prof-label"><span>python</span><span class="prof-pct">90%</span></div>
+        <div class="prof-bar"><div class="prof-fill"></div></div>
+      </div>
+      <div class="prof-item reveal-up" data-level="80">
+        <div class="prof-label"><span>c</span><span class="prof-pct">80%</span></div>
+        <div class="prof-bar"><div class="prof-fill"></div></div>
+      </div>
+      <div class="prof-item reveal-up" data-level="75">
+        <div class="prof-label"><span>php</span><span class="prof-pct">75%</span></div>
+        <div class="prof-bar"><div class="prof-fill"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section-head reveal-up">
+      <span class="section-tag">02 · Projects</span>
+      <h2>Things I've Built</h2>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card reveal-up">
+        <div class="project-glow"></div>
+        <div class="project-num">01</div>
+        <h3></h3>
+        <p>Describe what the project does, the problem it solves, and your role in building it.</p>
+        <div class="project-tags">
+          <span>Tech 1</span><span>Tech 2</span><span>Tech 3</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lameea" target="_blank">Live Demo →</a>
+          <a href="https://github.com/lameea" target="_blank">Source Code →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal-up">
+        <div class="project-glow"></div>
+        <div class="project-num">02</div>
+        <h3>Project Title 2</h3>
+        <p>Describe what the project does, the problem it solves, and your role in building it.</p>
+        <div class="project-tags">
+          <span>Tech 1</span><span>Tech 2</span><span>Tech 3</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lameea" target="_blank">Live Demo →</a>
+          <a href="https://github.com/lameea" target="_blank">Source Code →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal-up">
+        <div class="project-glow"></div>
+        <div class="project-num">03</div>
+        <h3>Project Title 3</h3>
+        <p>Describe what the project does, the problem it solves, and your role in building it.</p>
+        <div class="project-tags">
+          <span>Tech 1</span><span>Tech 2</span><span>Tech 3</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lameea" target="_blank">Live Demo →</a>
+          <a href="https://github.com/lameea" target="_blank">Source Code →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal-up">
+        <div class="project-glow"></div>
+        <div class="project-num">04</div>
+        <h3>Project Title 4</h3>
+        <p>Describe what the project does, the problem it solves, and your role in building it.</p>
+        <div class="project-tags">
+          <span>Tech 1</span><span>Tech 2</span><span>Tech 3</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/lameea" target="_blank">Live Demo →</a>
+          <a href="https://github.com/lameea" target="_blank">Source Code →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal-up">
+      <span class="section-tag">03 · Contact</span>
+      <h2>Let's Work Together</h2>
+    </div>
+    <p class="contact-intro reveal-up">
+      Have a project in mind or just want to say hi? My inbox is always open.
+    </p>
+
+    <div class="contact-grid">
+      <form class="contact-form reveal-up" id="contactForm">
+        <div class="form-row">
+          <label for="cName">Name</label>
+          <input type="text" id="cName" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="cEmail">Email</label>
+          <input type="email" id="cEmail" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="cMsg">Message</label>
+          <textarea id="cMsg" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+
+      <div class="contact-details reveal-up">
+        <div class="cd-item">
+          <span class="cd-label">Email</span>
+          <a href="mailto:lameeaiud@gmail.com">lameeaiud@gmail.com</a>
+        </div>
+        <div class="cd-item">
+          <span class="cd-label">Phone</span>
+          <a href="tel:+10000000000">+60176438130</a>
+        </div>
+        <div class="cd-item">
+          <span class="cd-label">Location</span>
+          <span>Kedah,Malaysia</span>
+        </div>
+        <div class="cd-item">
+          <span class="cd-label">Elsewhere</span>
+          <div class="cd-socials">
+            <a href="https://github.com/lameea" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/lameea-ismath-39576a38b" target="_blank">LinkedIn</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-wrap">
+    <span>© <span id="year"></span>   Lameea Ismath. All rights reserved.</span>
+    <span>Built with HTML, CSS & JS</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
